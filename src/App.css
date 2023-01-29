@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+html{
+  padding: 0.5%;
+  background-image: url('./images/platter-g590a9ad01_1920.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) ;
+  border: 1px;
+  border-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-main{
+  background-color: rgba(226, 230, 230, 0.217);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-name{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 6vw;
+  color: rgb(9, 9, 8);
+  padding: 1% 0.5%;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.header div{
+  padding: 2%;
+  
+  
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(25, 27, 29);
+  background-color: rgba(226, 230, 230, 0.217);
+  width: 11vw;
+  font-size: 2vw;
+  height: 6vh;
 }
